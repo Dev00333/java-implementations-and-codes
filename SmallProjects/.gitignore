@@ -3,6 +3,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+.idea
 
 ### Eclipse ###
 .apt_generated
@@ -25,7 +26,6 @@ bin/
 
 ### VS Code ###
 .vscode/
-.idea
 
 ### Mac OS ###
 .DS_Store
