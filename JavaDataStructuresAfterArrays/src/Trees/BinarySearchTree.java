@@ -1,6 +1,4 @@
 package Trees;
-
-import javax.management.modelmbean.ModelMBeanNotificationBroadcaster;
 import java.util.Arrays;
 
 public class BinarySearchTree {
