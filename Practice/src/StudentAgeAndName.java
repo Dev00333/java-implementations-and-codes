@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public abstract class StudentAgeAndName {
-    private String name;
-    private int age;
+    private final String name;
+    private final int age;
     public StudentAgeAndName(String name, int age) {
         this.name = name;
         this.age = age;
@@ -9,15 +9,9 @@ public abstract class StudentAgeAndName {
     public String getName() {
         return name;
     }
-//    public void setName(String name) {
-//        this.name = name;
-//    }
     public int getAge() {
         return age;
     }
-//    public void setAge(int age){
-//        this.age=age;
-//    }
     public abstract void greetings();
 }
 
@@ -48,6 +42,6 @@ class MainRunner1{
             System.out.print("do you want to continue: ");
             stoppingPoint=scanner.nextBoolean();
         }
-        System.out.println(nameData.toString());
+        System.out.println(nameData);
     }
 }
