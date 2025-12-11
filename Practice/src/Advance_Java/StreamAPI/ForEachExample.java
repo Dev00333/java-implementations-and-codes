@@ -3,7 +3,7 @@ package Advance_Java.StreamAPI;
 import java.util.Arrays;
 import java.util.List;
 
-public class ForEachExample {
+public sealed class ForEachExample permits A,B{
     static void main() {
         List<Integer> li=Arrays.asList(1,2,3,4,5,6,7,8,9,10);
         var result=li.stream()
@@ -21,3 +21,5 @@ public class ForEachExample {
         li.forEach(System.out::println);
     }
 }
+final class A extends ForEachExample{}
+final class B extends ForEachExample{}
