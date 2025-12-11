@@ -1,8 +1,8 @@
 package Advance_Java.Input;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.Scanner;
+// import java.io.BufferedReader;
+// import java.io.InputStreamReader;
+// import java.util.Scanner;
 
 public class InputWays {
     static void main() throws Exception{

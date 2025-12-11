@@ -25,9 +25,12 @@ public class PracticeOldWay extends Thread {
         t4.start();
 
         try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
-            for(int i = 0; i < 4; ++i) {
+            for (int i = 0; i < 4; ++i) {
                 executor.submit(task1);
             }
+        } finally {
+            // executor is automatically closed by try-with-resources
+            scanner.close();
         }
 
     }

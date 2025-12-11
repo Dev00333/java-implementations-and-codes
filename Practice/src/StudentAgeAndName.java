@@ -43,5 +43,6 @@ class MainRunner1{
             stoppingPoint=scanner.nextBoolean();
         }
         System.out.println(nameData);
+        scanner.close();
     }
 }
