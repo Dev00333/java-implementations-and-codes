@@ -22,4 +22,5 @@ public sealed class ForEachExample permits A,B{
     }
 }
 final class A extends ForEachExample{}
-final class B extends ForEachExample{}
+non-sealed class B extends ForEachExample{}
+class C extends B{}
