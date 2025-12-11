@@ -1,3 +1,4 @@
+package Advance_Java;
 public class practiceAdvance {
     interface A{int add(int a, int b);}
     interface B{int sub(int a,int b);}
