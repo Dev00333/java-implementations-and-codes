@@ -1,7 +1,7 @@
 package Advance_Java.Concurrency;
 
 public class DemoThreads {
-    public static void main(String[] args) throws Exception {
+    static void main() throws Exception {
         Counter counter = new Counter(); // Create an instance
         Runnable obja = () -> {
             for (int i = 0; i < 10000; ++i) {
