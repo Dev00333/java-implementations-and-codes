@@ -47,9 +47,12 @@ public class OldDeclarationAndNewDeclaration {
 }
 
 record StudentGen(String name, int age) {
+
     private static int studentcount;
 
     public StudentGen {
+        if (name == null)
+            throw new IllegalArgumentException("name cannot be null");
         studentcount++;
     }
 
@@ -63,7 +66,7 @@ class NewDeclaration {
         StudentGen s1 = new StudentGen("dev", 25);
         System.out.println(s1);
         System.out.println(s1.getStudentcount());
-        StudentGen s2 = new StudentGen("dev", 20);
+        StudentGen s2 = new StudentGen(null, 20);
         System.out.println(s2);
         System.out.println(s2.getStudentcount());
     }
