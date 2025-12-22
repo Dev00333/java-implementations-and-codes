@@ -1,4 +1,4 @@
-package DigitalClock.com.practice;
+package DigitalClock;
 
 import javax.swing.*;
 import java.awt.*;

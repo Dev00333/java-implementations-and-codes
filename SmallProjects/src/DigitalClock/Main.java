@@ -1,8 +1,8 @@
-package DigitalClock.com.practice;
+package DigitalClock;
 
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
         System.out.println("Testing..");
-        MyWindows w=new MyWindows();
+        MyWindows w =new MyWindows();
     }
 }
