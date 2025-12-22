@@ -1,3 +1,4 @@
+package Advance_Java.Record;
 import java.util.Scanner;
 public abstract class StudentAgeAndName {
     private final String name;
