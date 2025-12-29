@@ -1,9 +1,8 @@
 package com.telusko.learning;
-import static org.junit.Assert.*;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalcTest {
-    @Test
+    @org.testng.annotations.Test
     public void test() {
         Calc c=new Calc();
         int actual=c.div(10, 5);

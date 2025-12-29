@@ -1,4 +1,4 @@
-package com.Telusko.learning;
+package com.telusko.learning;
 
 import org.junit.jupiter.api.Test;
 

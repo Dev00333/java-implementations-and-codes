@@ -1,4 +1,4 @@
-package com.Telusko.learning;
+package com.telusko.learning;
 
 public class ReverseString {
     public String reverseString(String str) {

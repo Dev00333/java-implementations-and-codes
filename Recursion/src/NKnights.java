@@ -39,7 +39,7 @@ boolean isSafe(boolean[][] board, int row, int col){
         if (board[row-1][col+2])return false;
     }
     if (isValid(board,row-1,col-2)){
-        if (board[row-1][col-2])return false;
+        return !board[row - 1][col - 2];
     }
     return true;
 }
